@@ -1,4 +1,3 @@
-package com.dqqdo.androidscreen.utils;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -30,7 +29,6 @@ public class DimensUtils {
 
 			double d = 3.14159;
 			String strPXValue = df.format(pxValue);
-//sinosoft_fhcs
 			String contentLine = "<dimen name=\"dimen_" + i + "_dip\">"
 					+ strPXValue + "px</dimen>" + "\n";
 			bw.write(contentLine);
